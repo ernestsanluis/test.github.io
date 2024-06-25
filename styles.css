@@ -67,3 +67,36 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+
+
+/* Existing CSS code */
+
+#ratings-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rating {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.rating:hover {
+    background-color: #f0f0f0;
+}
+
+.rating .emoji {
+    font-size: 2em;
+    display: block;
+}
+
+.rating .name {
+    margin-top: 5px;
+    font-size: 1em;
+}
