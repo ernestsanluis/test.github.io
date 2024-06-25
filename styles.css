@@ -44,7 +44,8 @@ main {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;      /* Center content vertically */
     margin-top: 20px;
 }
 
@@ -54,8 +55,9 @@ main {
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
-    flex: 1;
-    min-width: 200px;
+    flex: 1 1 300px;  /* Flexible width with a minimum of 300px */
+    max-width: 500px; /* Maximum width to ensure it doesn't get too wide */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -67,10 +69,6 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-
-
-/* Existing CSS code */
 
 #ratings-section {
     text-align: center;
